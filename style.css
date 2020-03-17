@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
+}
+
+.header-container {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 30px 100px;
+	height: 90px;
+}
+
+.logo {
+	margin-right: 10px;
+}
+
+.bato {
+	margin-right: 40px;
+	font-size: 22px;
+	letter-spacing: 0.135em;
+	color: #11101f;
+}
+
+.bato a {
+	text-decoration: none;
+	color: #11101f;
+}
+
+.head-list {
+	list-style-type: none;
+	display: flex;
+	margin-right: auto;
+}
+
+.head-list a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 30px;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+}
+
+.head-list a:hover {
+	border-bottom: 3px solid yellow;
+}
+.button0 {
+	font-size: 17px;
+	border: none;
+	border-radius: 20px;
+	background-color: #11101f;
+	padding: 8px 20px;
+}
+
+.button0 a {
+	text-decoration: none;
+	color: white;
+}
+
+.button0:hover {
+	background-color: #322222;
+
+}
+.left-box {
+	display: flex;
+	flex-direction: column;
+	width: 900px;
+	height: 500px;
+	background: #11101f;
+	padding: 90px 0;
+}
+
+.headline h1 {
+	color: white;
+	margin-left: 200px;
+	font-size: 50px;
+	line-height: 55px;
+	font-weight: bold;
+}
+
+p {
+	color: white;
+	margin-left: 200px;
+	padding-top: 30px;
+	line-height: 25px;
+}
+
+.button1 {
+	background: yellow;
+	color: #11101f;
+	margin-left: 200px;
+	margin-top: 30px;
+	border: none;
+	font-size: 17px;
+	padding: 8px 20px;
+	border-radius: 20px;
+}
+
+.button1:hover {
+	background: rgb(255, 219, 12);
+}
+
+.button1 a {
+	text-decoration: none;
+	color: #11101f;
+}
+
+.button1 a {
+	text-decoration: none;
+	color: #11101f;
+}
+
+.pricing {
+	color: #11101f;
+	margin-top:80px;
+}
+
+.bathroom-image {
+	width: 650px;
+	height: 450px;
+	position: absolute;
+	right: 0px;
+	top: 90px;
+}
